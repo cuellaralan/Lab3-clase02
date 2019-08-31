@@ -1,0 +1,41 @@
+body{
+    background-color: aqua;
+}
+h1,h2{
+    color: #000099;
+    font-family: 'lucida-sans';
+}
+p{
+    color:red;
+}
+
+p.negrita{
+    font-weight: bold;
+    font-size: 20pt;
+}
+
+.otraClase{
+    font-style: italic;
+}
+
+.boton{
+    background-color: greenyellow;
+    width: 120px;
+    height: 60px;
+    border-radius: 7px;
+    margin: 20px;
+    padding-left: 0px;
+    cursor: pointer;
+    border: none;
+}
+.boton:hover(){
+    background-color: rgb(85, 30, 30);
+}
+
+.botonOK{
+    background-color: green;
+}
+
+.botonError{
+    background-color: red;
+}
